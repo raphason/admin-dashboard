@@ -170,7 +170,9 @@ input {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
+    margin: 20px;
     background-color: var(--box-bg);
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .announcements, .trending {
@@ -178,6 +180,11 @@ input {
     grid-template-rows: 1fr 5fr;
     background-color: var(--main-bg);
     color: var(--font-color);
+}
+
+.separator {
+    height: 1px;
+    background-color: gray;
 }
 
 .large-profile {
